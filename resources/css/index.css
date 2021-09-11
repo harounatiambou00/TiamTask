@@ -1,0 +1,21 @@
+#body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #012933;
+}
+
+#container
+{
+    border-radius: 5px;
+}
+
+#logo
+{
+    color: #943126;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}

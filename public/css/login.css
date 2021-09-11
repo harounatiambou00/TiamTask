@@ -1,0 +1,56 @@
+#body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0%;
+    background-color: #012933;
+}
+
+#container
+{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 25px 30px;
+    box-shadow: 0px 0px 1px 1px #ddd;
+    background-color: white;
+}
+
+#logo
+{
+    text-align: center;
+    color: #943126;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#container #title_parent
+{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#container div #title
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#container a span
+{
+    text-decoration: none;
+    color: #004643;
+    font-family: "Brush Script MT";
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
