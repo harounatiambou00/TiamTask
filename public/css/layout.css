@@ -1,0 +1,9 @@
+#footer
+{
+    position:absolute;
+    bottom:0;
+    font-size: 1em;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+}
+

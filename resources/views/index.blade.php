@@ -14,14 +14,14 @@
          {{--Font awesome icons link--}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body class="p-4" id="body">
+    <body class="p-4 w-100v" id="body">
         <div class="container jumbotron pb-1" id="container">
             <h1 id="logo" class="display-3 mb-4"><i class="fa fa-book"></i>  TiamTasks</h1>
             <div class="bg-light p-3 rounded">
                 <h2 class="text-center fw-bold">Jamais débordé,<br>Toujours éfficace</h2>
                 <figure class="text-center">
                     <blockquote class="blockquote">
-                        <p>Avec TiamTasks ayez l'esprit tranquille en ajoutant toutes vos tâches à votre to-do list<br>(où que vous soyez ou quel que soit l'appareil utilisé).<br>N'attendez pas plus longtemps créer un compte ou inscrivez-vous pour organisez votre quotidien.</p>
+                        <p>Avec TiamTasks ayez l'esprit tranquille en ajoutant toutes vos tâches à votre to-do list<br>(où que vous soyez ou quel que soit l'appareil utilisé).<br>N'attendez pas plus longtemps créer un compte ou inscrivez-vous pour organiser votre quotidien.</p>
                     </blockquote>
                     <figcaption class="blockquote-footer">
                         Harouna Tiambou Abdoul Wahabou<cite title="Source Title"></cite>
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <h4><span class="w-100 badge text-light">Copyright &#169; 2021 TIAMTECH. All rights reserved</span></h4>
+        <h4><span class="badge text-light" style="">Copyright &#169; 2021 TIAMTECH. All rights reserved</span></h4>
         {{-- Bootstrap JS --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>

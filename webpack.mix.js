@@ -16,4 +16,6 @@ mix.js('resources/js/app.js', 'public/js')
         //
     ]).postCss('resources/css/login.css', 'public/css', [
         //
+    ]).postCss('resources/css/layout.css', 'public/css', [
+
     ]);
