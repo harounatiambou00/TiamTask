@@ -44,9 +44,33 @@
                 <a href="{{ route('user.show', $user->id) }}" class="btn btn-danger">
                     <i class="fa fa-arrow-left"></i> Annuler
                 </a>
-                <button type="submit" class="btn btn-primary">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit_deletion_popup">
                     <i class="fa fa-check"></i> Enregistrer
                 </button>
+                <div class="modal fade" id="edit_deletion_popup" tabindex="-1" aria-labelledby="edit_deletion_popup_label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="edit_deletion_popup_label">Modification</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h6>Veuillez confirmer l'enregistrement de tout les changement effectués.</h6>
+                                <div class="alert alert-info " role="alert">
+                                    <strong><i class="fas fa-info-circle"></i>  Remarque: </strong> Vous pouvez toujors reéditer cette t&acirc;che plutard.
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                <i class="fa fa-arrow-left"></i> Annuler
+                            </button>
+                            <button type="submit" class="btn btn-danger">
+                                <i class="fa fa-check"></i> Confimer
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
 @endsection  

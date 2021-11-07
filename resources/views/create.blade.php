@@ -39,10 +39,10 @@
                         @endforeach
                     </select>
                 </div>
-                <a href="{{ route('user.show', $user_id) }}" class="btn btn-danger">
+                <a href="{{ route('user.show', $user_id) }}" class="btn btn-sm btn-danger">
                     <i class="fa fa-arrow-left"></i> Annuler
                 </a>
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-sm btn-primary">
                     <i class="fa fa-check"></i> Créer
                 </button>
             </form>

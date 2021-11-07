@@ -16,36 +16,38 @@
     </head>
     <body class="p-4 w-100v" id="body">
         <div class="container jumbotron pb-1" id="container">
-            <h1 id="logo" class="display-3 mb-4"><i class="fa fa-book"></i>  TiamTasks</h1>
+            <h6 id="logo" class="display-5 mb-4"><i class="fa fa-book"></i>  TiamTasks</h6>
             <div class="bg-light p-3 rounded">
                 <h2 class="text-center fw-bold">Jamais débordé,<br>Toujours éfficace</h2>
                 <figure class="text-center">
                     <blockquote class="blockquote">
-                        <p>Avec TiamTasks ayez l'esprit tranquille en ajoutant toutes vos tâches à votre to-do list<br>(où que vous soyez ou quel que soit l'appareil utilisé).<br>N'attendez pas plus longtemps créer un compte ou inscrivez-vous pour organiser votre quotidien.</p>
+                        <p class="fs-6">Avec TiamTasks ayez l'esprit tranquille en ajoutant toutes vos tâches à votre to-do list<br>(où que vous soyez et quel que soit l'appareil utilisé).<br>N'attendez pas plus longtemps créer un compte ou inscrivez-vous pour améliorer votre productivité.</p>
                     </blockquote>
                     <figcaption class="blockquote-footer">
                         Harouna Tiambou Abdoul Wahabou<cite title="Source Title"></cite>
                     </figcaption>
                 </figure>
                 <hr class="my-4">
-                <div class="text-center">
-                    <div class="float-start mb-4 mb-md-0">
-                        <blockquote class="blockquote">
-                            <p>&Ecirc;tes-vous déja un habitué?<br>Veuillez vous connécter pour pouvoir acceder à votre compte.<br></p>
-                        </blockquote>
-                        <a class="btn btn-warning btn-lg" href="{{ route('login') }}" role="button">Connexion</a>
+                <div class="row my-3">
+                    <div class="col-12 my-3 col-md-6 text-center">
+                        <div class="">
+                            <blockquote class="blockquote">
+                                <p class="fs-6">&Ecirc;tes-vous déja un habitué?<br>Veuillez vous connécter pour pouvoir acceder à votre compte.<br></p>
+                            </blockquote>
+                            <a id="auth_button" href="{{ route('login') }}" role="button">Connexion</a>
+                        </div>
                     </div>
-                    <div class="float-end">
-                        <blockquote class="blockquote">
-                            <p>Vous n'avez pas encore un créer un compte?<br>Pas de panique, cliquez sur le lien en dessous et commencez l'aventure.</p>
-                        </blockquote>
-                        <a class="btn btn-warning btn-lg" href="{{ route('registration') }}" role="button">Inscription</a>
+                    <div class="col-12 my-3 col-md-6 text-center">
+                        <div class="">
+                            <blockquote class="blockquote">
+                                <p class="fs-6">Vous n'avez pas encore un compte?<br>Pas de panique, cliquez sur le lien en dessous et commencez l'aventure.</p>
+                            </blockquote>
+                            <a id="auth_button" href="{{ route('registration') }}" role="button">Inscription</a>
+                        </div>
                     </div>
-                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
-        <h4><span class="badge text-light" style="">Copyright &#169; 2021 TIAMTECH. All rights reserved</span></h4>
         {{-- Bootstrap JS --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>

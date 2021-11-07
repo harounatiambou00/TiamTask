@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-size: 10px;
     justify-content: center;
     align-items: center;
     background-color: #012933;
@@ -13,9 +14,45 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 500px) {
+    #container{
+        overflow-y:  scroll;
+    }
+
+    body{
+        font-size: 0.5em;
+    }
+}
+
 #logo
 {
     color: #943126;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+}
+
+#footer
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#auth_button
+{
+    background-color: #ffc107;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 1.3em;
+    border-radius: 3px;
+    margin: 2%;
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+#auth_button:hover
+{
+    background-color: #17a2b8;
+    color: white;
 }

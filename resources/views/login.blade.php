@@ -18,7 +18,7 @@
     </head>
     <body id="body">
         <div id="container">
-            <h1 id="logo" class="display-5 mb-4"><i class="fa fa-book"></i>  TiamTasks</h1>
+            <h1 id="logo" class="display-6 mb-4"><i class="fa fa-book"></i>  TiamTasks</h1>
             <div class=m-4 id="title_parent">
                 <span class="badge bg-warning text-black" id="title">Connexion</span>
             </div>
@@ -49,10 +49,15 @@
                 </div>
                 <div class="mt-4 mb-3">
                     <div class="float-start">
-                        <button type="submit" class="btn btn-success">Valider</button>
+                        <button type="submit" class="btn btn-sm btn-success">Valider</button>
                     </div>
-                    <div class="float-end pt-3">
-                        <small><a href="">Mot de pase oublié?</a></small>
+                    <div class="float-end">
+                        <small><button class="btn btn-sm btn-link"  onclick="forgotPassword()">Mot de pase oublié?</button></small>
+                        <script>
+                            function forgotPassword(){
+                                alert("Désolé cette fonctionnalité n'est pas encore disponible revenez dans quelques semaines.Nous vous recommandons de recréer un compte en attendant.");
+                            }
+                        </script>
                     </div>
                     <div class="clearfix"></div>
                 </div>
